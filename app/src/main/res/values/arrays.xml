@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="casarealImages">
+        <item>@drawable/letizia1</item>
+        <item>@drawable/letizia2</item>
+        <item>@drawable/letizia3</item>
+        <item>@drawable/letizia4</item>
+        <item>@drawable/letizia5</item>
+        <item>@drawable/letizia6</item>
+    </array>
+
+    <array name="photocallImages">
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+    </array>
+
+    <array name="deportesImages">
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+    </array>
+
+    <array name="viajesImages">
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+    </array>
+
+    <array name="editorialImages">
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/ic_launcher_background</item>
+    </array>
+</resources>

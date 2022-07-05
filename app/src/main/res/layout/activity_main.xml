@@ -30,10 +30,10 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="200dp"
-        android:id="@+id/container">
+        android:layout_marginTop="105dp">
 
     </FrameLayout>
 

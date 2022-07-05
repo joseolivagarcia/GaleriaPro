@@ -9,14 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="150dp">
+        android:background="@color/accentColor">
 
-        <TextView
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/image_galery"
+            android:layout_gravity="center_horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="CASA REAL FRAGMENT" />
+            android:layout_height="match_parent"/>
+
     </LinearLayout>
-
-
 
 </FrameLayout>
