@@ -1,11 +1,19 @@
 package joseoliva.com.gallerypro;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.widget.Toast;
 
 import com.google.android.material.tabs.TabLayout;
+
+import joseoliva.com.gallerypro.Fragments.CasaRealFragment;
+import joseoliva.com.gallerypro.Fragments.DeportesFragment;
+import joseoliva.com.gallerypro.Fragments.EditorialFragment;
+import joseoliva.com.gallerypro.Fragments.PhotocallFragment;
+import joseoliva.com.gallerypro.Fragments.ViajesFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,11 +41,35 @@ public class MainActivity extends AppCompatActivity {
          */
         tabs.setTabMode(TabLayout.MODE_SCROLLABLE); //con MODE_FIXED si tienes pocos tabs
 
+        //cargamos el fragment principal (el de casa real que es el primer tab)
+        openFragment(new CasaRealFragment());
+
         //para la escucha de los tabs (cuando los seleccionas)
         tabs.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                Toast.makeText(MainActivity.this, "Has seleccionado: " + tabs.getSelectedTabPosition(), Toast.LENGTH_SHORT).show();
+                int position = tabs.getSelectedTabPosition();
+                switch (position){
+                    case 0:
+                        openFragment(new CasaRealFragment());
+                        return;
+                    case 1:
+                        openFragment(new PhotocallFragment());
+                        return;
+                    case 2:
+                        openFragment(new DeportesFragment());
+                        return;
+                    case 3:
+                        openFragment(new ViajesFragment());
+                        return;
+                    case 4:
+                        openFragment(new EditorialFragment());
+                        return;
+                    default:
+                        break;
+
+                }
+
             }
 
             @Override
@@ -50,5 +82,12 @@ public class MainActivity extends AppCompatActivity {
                 
             }
         });
+    }
+
+    public void openFragment(Fragment fragment) {
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.container, fragment);
+        transaction.addToBackStack(null);
+        transaction.commit();
     }
 }
