@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GalleryPro</string>
+
+    <string name="section1">Casa Real</string>
+    <string name="section2">Photocall</string>
+    <string name="section3">Viajes</string>
+    <string name="section4">Editorial</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_shop">Carrito de Compras</string>
+</resources>

@@ -1,2 +1,2 @@
-# GaleriaPro
-Galeria con PageViewer
+# MiGaleriaPro
+Proyecto Android Studio con Tabs y galeria de imágenes
