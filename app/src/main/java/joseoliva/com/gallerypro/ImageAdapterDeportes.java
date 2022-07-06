@@ -10,13 +10,14 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-public class ImageAdapter extends PagerAdapter {
+public class ImageAdapterDeportes extends PagerAdapter {
 
     private TypedArray images;
     private LayoutInflater layoutInflater;
 
-    public ImageAdapter(Context context){
-        images = context.getResources().obtainTypedArray(R.array.casarealImages);
+    public ImageAdapterDeportes(Context context){
+
+        images = context.getResources().obtainTypedArray(R.array.deportesImages);
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 

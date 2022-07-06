@@ -10,17 +10,21 @@
     </array>
 
     <array name="photocallImages">
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
+
+
     </array>
 
     <array name="deportesImages">
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/deportes1</item>
+        <item>@drawable/deportes2</item>
+        <item>@drawable/deportes3</item>
+        <item>@drawable/deportes4</item>
+        <item>@drawable/deportes5</item>
+        <item>@drawable/deportes6</item>
+        <item>@drawable/deportes7</item>
+        <item>@drawable/deportes8</item>
+        <item>@drawable/deportes9</item>
+        <item>@drawable/deportes10</item>
     </array>
 
     <array name="viajesImages">
