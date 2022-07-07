@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="casarealImages">
-        <item>@drawable/letizia1</item>
-        <item>@drawable/letizia2</item>
-        <item>@drawable/letizia3</item>
-        <item>@drawable/letizia4</item>
-        <item>@drawable/letizia5</item>
-        <item>@drawable/letizia6</item>
+        <item>@drawable/casarey1</item>
+        <item>@drawable/casarey2</item>
+        <item>@drawable/casarey3</item>
+        <item>@drawable/casarey4</item>
+        <item>@drawable/casarey5</item>
+        <item>@drawable/casarey6</item>
+        <item>@drawable/casarey7</item>
+        <item>@drawable/casarey8</item>
+        <item>@drawable/casarey9</item>
+        <item>@drawable/casarey10</item>
+        <item>@drawable/casarey11</item>
+        <item>@drawable/casarey12</item>
+        <item>@drawable/casarey13</item>
+        <item>@drawable/casarey14</item>
+        <item>@drawable/casarey15</item>
+        <item>@drawable/casarey16</item>
+        <item>@drawable/casarey17</item>
+        <item>@drawable/casarey18</item>
+        <item>@drawable/casarey19</item>
+        <item>@drawable/casarey20</item>
+
+
     </array>
 
     <array name="photocallImages">
