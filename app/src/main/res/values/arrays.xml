@@ -10,7 +10,26 @@
     </array>
 
     <array name="photocallImages">
-
+        <item>@drawable/photocall1</item>
+        <item>@drawable/photocall2</item>
+        <item>@drawable/photocall3</item>
+        <item>@drawable/photocall4</item>
+        <item>@drawable/photocall5</item>
+        <item>@drawable/photocall6</item>
+        <item>@drawable/photocall7</item>
+        <item>@drawable/photocall8</item>
+        <item>@drawable/photocall9</item>
+        <item>@drawable/photocall10</item>
+        <item>@drawable/photocall11</item>
+        <item>@drawable/photocall12</item>
+        <item>@drawable/photocall13</item>
+        <item>@drawable/photocall14</item>
+        <item>@drawable/photocall15</item>
+        <item>@drawable/photocall16</item>
+        <item>@drawable/photocall17</item>
+        <item>@drawable/photocall18</item>
+        <item>@drawable/photocall19</item>
+        <item>@drawable/photocall20</item>
 
     </array>
 
