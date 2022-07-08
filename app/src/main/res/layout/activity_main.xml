@@ -18,13 +18,16 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             app:title="Gallery Pro"
-            app:titleTextColor="@color/white"/>
+            android:background="@color/primaryColor"
+            app:titleTextColor="@color/white" />
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/primaryColor"
             app:tabTextColor="@color/white"/>
 
     </com.google.android.material.appbar.AppBarLayout>

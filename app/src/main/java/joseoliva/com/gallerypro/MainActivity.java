@@ -1,6 +1,7 @@
 package joseoliva.com.gallerypro;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -8,6 +9,8 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.google.android.material.tabs.TabLayout;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import joseoliva.com.gallerypro.Fragments.CasaRealFragment;
 import joseoliva.com.gallerypro.Fragments.DeportesFragment;
@@ -23,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //para usar la toolbar que yo he creado
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         tabs = findViewById(R.id.tabs);
         //añado las opciones que quiero al navegador tabs
@@ -83,6 +90,39 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    //para poner menus en el toolbar sobreescribo estos dos metodos
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.mimenu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if(id==R.id.quiensoy){
+            Toast.makeText(this, "quien soy", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if(id==R.id.curriculum){
+            Toast.makeText(this, "curriculum", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if(id==R.id.twitter){
+            Toast.makeText(this, "twitter", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if(id==R.id.instagram){
+            Toast.makeText(this, "instagram", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if(id==R.id.whatsapp){
+            Toast.makeText(this, "whatsapp", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     public void openFragment(Fragment fragment) {

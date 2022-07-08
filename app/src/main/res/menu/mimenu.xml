@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/quiensoy"
+        android:title="Quién soy"
+        app:showAsAction="always"
+        android:icon="@drawable/perfil">
+    </item>
+    <item
+        android:id="@+id/curriculum"
+        android:title="Mi Curriculum"
+        app:showAsAction="always"
+        android:icon="@drawable/curriculum">
+    </item>
+    <item
+        android:id="@+id/twitter"
+        android:title="Twitter"
+        android:icon="@drawable/twitter">
+    </item>
+    <item
+        android:id="@+id/instagram"
+        android:title="Instagram"
+        android:icon="@drawable/instagram">
+    </item>
+    <item
+        android:id="@+id/whatsapp"
+        android:title="WhatsApp"
+        android:icon="@drawable/whatsapp">
+    </item>
+</menu>
