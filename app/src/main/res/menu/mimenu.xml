@@ -7,26 +7,35 @@
         android:title="Quién soy"
         app:showAsAction="always"
         android:icon="@drawable/perfil">
+
     </item>
     <item
-        android:id="@+id/curriculum"
-        android:title="Mi Curriculum"
-        app:showAsAction="always"
-        android:icon="@drawable/curriculum">
-    </item>
-    <item
-        android:id="@+id/twitter"
-        android:title="Twitter"
-        android:icon="@drawable/twitter">
-    </item>
-    <item
-        android:id="@+id/instagram"
-        android:title="Instagram"
-        android:icon="@drawable/instagram">
-    </item>
-    <item
-        android:id="@+id/whatsapp"
-        android:title="WhatsApp"
-        android:icon="@drawable/whatsapp">
+        android:id="@+id/more"
+        android:title="Mas"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/curriculum"
+                android:icon="@drawable/curri"
+                android:title="Mi Curriculum">
+
+            </item>
+            <item
+                android:id="@+id/twitter"
+                android:icon="@drawable/twitter"
+                android:title="Twitter">
+            </item>
+            <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/insta"
+                android:title="Instagram">
+            </item>
+            <item
+                android:id="@+id/whatsapp"
+                android:icon="@drawable/whastapp"
+                android:title="WhatsApp">
+            </item>
+        </menu>
     </item>
 </menu>

@@ -101,26 +101,23 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
-        int id = item.getItemId();
-        if(id==R.id.quiensoy){
-            Toast.makeText(this, "quien soy", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-        if(id==R.id.curriculum){
-            Toast.makeText(this, "curriculum", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-        if(id==R.id.twitter){
-            Toast.makeText(this, "twitter", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-        if(id==R.id.instagram){
-            Toast.makeText(this, "instagram", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-        if(id==R.id.whatsapp){
-            Toast.makeText(this, "whatsapp", Toast.LENGTH_SHORT).show();
-            return true;
+
+        switch (item.getItemId()){
+            case R.id.quiensoy:
+                Toast.makeText(this, "quien soy", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.curriculum:
+                Toast.makeText(this, "curri", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.twitter:
+                Toast.makeText(this, "teitter", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.instagram:
+                Toast.makeText(this, "instagram", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.whatsapp:
+                Toast.makeText(this, "whatsapp", Toast.LENGTH_SHORT).show();
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }

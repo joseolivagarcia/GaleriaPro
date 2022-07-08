@@ -63,10 +63,38 @@
     </array>
 
     <array name="viajesImages">
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
+        <item>@drawable/viajes1</item>
+        <item>@drawable/viajes2</item>
+        <item>@drawable/viajes3</item>
+        <item>@drawable/viajes4</item>
+        <item>@drawable/viajes5</item>
+        <item>@drawable/viajes6</item>
+        <item>@drawable/viajes7</item>
+        <item>@drawable/viajes8</item>
+        <item>@drawable/viajes9</item>
+        <item>@drawable/viajes10</item>
+        <item>@drawable/viajes11</item>
+        <item>@drawable/viajes12</item>
+        <item>@drawable/viajes13</item>
+        <item>@drawable/viajes14</item>
+        <item>@drawable/viajes15</item>
+        <item>@drawable/viajes16</item>
+        <item>@drawable/viajes17</item>
+        <item>@drawable/viajes18</item>
+        <item>@drawable/viajes19</item>
+        <item>@drawable/viajes20</item>
+        <item>@drawable/viajes21</item>
+        <item>@drawable/viajes22</item>
+        <item>@drawable/viajes23</item>
+        <item>@drawable/viajes24</item>
+        <item>@drawable/viajes25</item>
+        <item>@drawable/viajes26</item>
+        <item>@drawable/viajes27</item>
+        <item>@drawable/viajes28</item>
+        <item>@drawable/viajes29</item>
+        <item>@drawable/viajes30</item>
+        <item>@drawable/viajes31</item>
+
     </array>
 
     <array name="editorialImages">
