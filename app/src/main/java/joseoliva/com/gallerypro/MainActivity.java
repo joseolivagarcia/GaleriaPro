@@ -13,9 +13,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import joseoliva.com.gallerypro.Fragments.CasaRealFragment;
+import joseoliva.com.gallerypro.Fragments.CurriFragment;
 import joseoliva.com.gallerypro.Fragments.DeportesFragment;
 import joseoliva.com.gallerypro.Fragments.EditorialFragment;
 import joseoliva.com.gallerypro.Fragments.PhotocallFragment;
+import joseoliva.com.gallerypro.Fragments.SobremiFragment;
 import joseoliva.com.gallerypro.Fragments.ViajesFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -104,10 +106,10 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()){
             case R.id.quiensoy:
-                Toast.makeText(this, "quien soy", Toast.LENGTH_SHORT).show();
+                openFragment(new SobremiFragment());
                 return true;
             case R.id.curriculum:
-                Toast.makeText(this, "curri", Toast.LENGTH_SHORT).show();
+                openFragment(new CurriFragment());
                 return true;
             case R.id.twitter:
                 Toast.makeText(this, "teitter", Toast.LENGTH_SHORT).show();

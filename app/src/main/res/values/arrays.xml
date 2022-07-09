@@ -103,4 +103,10 @@
         <item>@drawable/ic_launcher_background</item>
         <item>@drawable/ic_launcher_background</item>
     </array>
+
+    <array name="curriImages">
+        <item>@drawable/curri1</item>
+        <item>@drawable/curri2</item>
+        <item>@drawable/curri3</item>
+    </array>
 </resources>
