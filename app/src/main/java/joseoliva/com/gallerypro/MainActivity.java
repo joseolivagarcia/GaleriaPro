@@ -15,7 +15,7 @@ import android.view.MenuItem;
 import joseoliva.com.gallerypro.Fragments.CasaRealFragment;
 import joseoliva.com.gallerypro.Fragments.CurriFragment;
 import joseoliva.com.gallerypro.Fragments.DeportesFragment;
-import joseoliva.com.gallerypro.Fragments.EditorialFragment;
+import joseoliva.com.gallerypro.Fragments.EspectaculosFragment;
 import joseoliva.com.gallerypro.Fragments.PhotocallFragment;
 import joseoliva.com.gallerypro.Fragments.SobremiFragment;
 import joseoliva.com.gallerypro.Fragments.ViajesFragment;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         tabs.addTab(tabs.newTab().setText("Photocall"));
         tabs.addTab(tabs.newTab().setText("Deportes"));
         tabs.addTab(tabs.newTab().setText("Viajes"));
-        tabs.addTab(tabs.newTab().setText("Editorial"));
+        tabs.addTab(tabs.newTab().setText("Espectáculos"));
         //si en lugar de texto queremos poner iconos seria con
         /*
         tabs.addTab(tabs.newTab().setIcon(R.drawable.ic_phone));
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                         openFragment(new ViajesFragment());
                         return;
                     case 4:
-                        openFragment(new EditorialFragment());
+                        openFragment(new EspectaculosFragment());
                         return;
                     default:
                         break;

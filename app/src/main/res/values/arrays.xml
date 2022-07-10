@@ -94,14 +94,34 @@
         <item>@drawable/viajes29</item>
         <item>@drawable/viajes30</item>
         <item>@drawable/viajes31</item>
+        <item>@drawable/viajes32</item>
+        <item>@drawable/viajes33</item>
+        <item>@drawable/viajes34</item>
+        <item>@drawable/viajes35</item>
+        <item>@drawable/viajes36</item>
+        <item>@drawable/viajes37</item>
+        <item>@drawable/viajes38</item>
+        <item>@drawable/viajes39</item>
+        <item>@drawable/viajes40</item>
+        <item>@drawable/viajes41</item>
+        <item>@drawable/viajes42</item>
+        <item>@drawable/viajes43</item>
 
     </array>
 
-    <array name="editorialImages">
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
-        <item>@drawable/ic_launcher_background</item>
+    <array name="espectaculoslImages">
+        <item>@drawable/espec1</item>
+        <item>@drawable/espec2</item>
+        <item>@drawable/espec3</item>
+        <item>@drawable/espec4</item>
+        <item>@drawable/espec5</item>
+        <item>@drawable/espec6</item>
+        <item>@drawable/espec7</item>
+        <item>@drawable/espec8</item>
+        <item>@drawable/espec9</item>
+        <item>@drawable/espec10</item>
+        <item>@drawable/espec11</item>
+
     </array>
 
     <array name="curriImages">
