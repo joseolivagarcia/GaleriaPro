@@ -18,6 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
         android:src="@drawable/dam2">
     </ImageView>
 
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="20dp">
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -68,12 +69,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Apasionado de la fotografía y la informática a partes iguales. Profesional
-de  la fotografía desde 1997. Titulado en DAM desde 2022."
+        android:text="Fotógrafo profesional desde 1997."
         android:textStyle="bold"
         android:textSize="16dp"
         android:textAlignment="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Técnico Superior en Desarrollo de Aplicaciones Multiplataforma desde 2022"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
         android:textColor="@color/black">
     </TextView>
 

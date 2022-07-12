@@ -1,52 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="casarealImages">
-        <item>@drawable/casarey1</item>
-        <item>@drawable/casarey2</item>
-        <item>@drawable/casarey3</item>
-        <item>@drawable/casarey4</item>
-        <item>@drawable/casarey5</item>
-        <item>@drawable/casarey6</item>
-        <item>@drawable/casarey7</item>
-        <item>@drawable/casarey8</item>
-        <item>@drawable/casarey9</item>
-        <item>@drawable/casarey10</item>
-        <item>@drawable/casarey11</item>
-        <item>@drawable/casarey12</item>
-        <item>@drawable/casarey13</item>
-        <item>@drawable/casarey14</item>
-        <item>@drawable/casarey15</item>
-        <item>@drawable/casarey16</item>
-        <item>@drawable/casarey17</item>
-        <item>@drawable/casarey18</item>
-        <item>@drawable/casarey19</item>
-        <item>@drawable/casarey20</item>
-
-
+        <item>@drawable/real1</item>
+        <item>@drawable/real2</item>
+        <item>@drawable/real3</item>
+        <item>@drawable/real4</item>
+        <item>@drawable/real5</item>
+        <item>@drawable/real6</item>
+        <item>@drawable/real7</item>
+        <item>@drawable/real8</item>
+        <item>@drawable/real9</item>
+        <item>@drawable/real10</item>
     </array>
 
     <array name="photocallImages">
-        <item>@drawable/photocall1</item>
-        <item>@drawable/photocall2</item>
-        <item>@drawable/photocall3</item>
-        <item>@drawable/photocall4</item>
-        <item>@drawable/photocall5</item>
-        <item>@drawable/photocall6</item>
-        <item>@drawable/photocall7</item>
-        <item>@drawable/photocall8</item>
-        <item>@drawable/photocall9</item>
-        <item>@drawable/photocall10</item>
-        <item>@drawable/photocall11</item>
-        <item>@drawable/photocall12</item>
-        <item>@drawable/photocall13</item>
-        <item>@drawable/photocall14</item>
-        <item>@drawable/photocall15</item>
-        <item>@drawable/photocall16</item>
-        <item>@drawable/photocall17</item>
-        <item>@drawable/photocall18</item>
-        <item>@drawable/photocall19</item>
-        <item>@drawable/photocall20</item>
-
+        <item>@drawable/photo1</item>
+        <item>@drawable/photo2</item>
+        <item>@drawable/photo3</item>
+        <item>@drawable/photo4</item>
+        <item>@drawable/photo5</item>
+        <item>@drawable/photo6</item>
+        <item>@drawable/photo7</item>
+        <item>@drawable/photo8</item>
+        <item>@drawable/photo9</item>
+        <item>@drawable/photo10</item>
     </array>
 
     <array name="deportesImages">
@@ -63,49 +40,16 @@
     </array>
 
     <array name="viajesImages">
-        <item>@drawable/viajes1</item>
-        <item>@drawable/viajes2</item>
-        <item>@drawable/viajes3</item>
-        <item>@drawable/viajes4</item>
-        <item>@drawable/viajes5</item>
-        <item>@drawable/viajes6</item>
-        <item>@drawable/viajes7</item>
-        <item>@drawable/viajes8</item>
-        <item>@drawable/viajes9</item>
-        <item>@drawable/viajes10</item>
-        <item>@drawable/viajes11</item>
-        <item>@drawable/viajes12</item>
-        <item>@drawable/viajes13</item>
-        <item>@drawable/viajes14</item>
-        <item>@drawable/viajes15</item>
-        <item>@drawable/viajes16</item>
-        <item>@drawable/viajes17</item>
-        <item>@drawable/viajes18</item>
-        <item>@drawable/viajes19</item>
-        <item>@drawable/viajes20</item>
-        <item>@drawable/viajes21</item>
-        <item>@drawable/viajes22</item>
-        <item>@drawable/viajes23</item>
-        <item>@drawable/viajes24</item>
-        <item>@drawable/viajes25</item>
-        <item>@drawable/viajes26</item>
-        <item>@drawable/viajes27</item>
-        <item>@drawable/viajes28</item>
-        <item>@drawable/viajes29</item>
-        <item>@drawable/viajes30</item>
-        <item>@drawable/viajes31</item>
-        <item>@drawable/viajes32</item>
-        <item>@drawable/viajes33</item>
-        <item>@drawable/viajes34</item>
-        <item>@drawable/viajes35</item>
-        <item>@drawable/viajes36</item>
-        <item>@drawable/viajes37</item>
-        <item>@drawable/viajes38</item>
-        <item>@drawable/viajes39</item>
-        <item>@drawable/viajes40</item>
-        <item>@drawable/viajes41</item>
-        <item>@drawable/viajes42</item>
-        <item>@drawable/viajes43</item>
+        <item>@drawable/viaje1</item>
+        <item>@drawable/viaje2</item>
+        <item>@drawable/viaje3</item>
+        <item>@drawable/viaje4</item>
+        <item>@drawable/viaje5</item>
+        <item>@drawable/viaje6</item>
+        <item>@drawable/viaje7</item>
+        <item>@drawable/viaje8</item>
+        <item>@drawable/viaje9</item>
+        <item>@drawable/viaje10</item>
 
     </array>
 
@@ -115,7 +59,6 @@
         <item>@drawable/espec3</item>
         <item>@drawable/espec4</item>
         <item>@drawable/espec5</item>
-        <item>@drawable/espec6</item>
         <item>@drawable/espec7</item>
         <item>@drawable/espec8</item>
         <item>@drawable/espec9</item>
@@ -125,8 +68,8 @@
     </array>
 
     <array name="curriImages">
-        <item>@drawable/curriculum1</item>
-        <item>@drawable/curriculum2</item>
-        <item>@drawable/curriculum3</item>
+        <item>@drawable/curri1</item>
+        <item>@drawable/curri2</item>
+        <item>@drawable/curri3</item>
     </array>
 </resources>
