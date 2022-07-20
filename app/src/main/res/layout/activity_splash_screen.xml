@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreen">
-
+    <!-- Este LinearLayout lo usaria para poner una animacion de Lottiflies
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -28,6 +28,21 @@
             android:id="@+id/lotticamera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    -->
+
+    <!-- Este LinearLayout es para hacer la splash con un video -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/videoview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent = "true"/>
 
     </LinearLayout>
 
